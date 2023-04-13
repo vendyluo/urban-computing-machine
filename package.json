@@ -7,9 +7,14 @@
     "start": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
-    "astro": "astro"
+    "astro": "astro",
+    "pages-preview": "wrangler pages dev ./dist  --compatibility-date=2023-04-13 --compatibility-flags=nodejs_compat --experimental-local"
   },
   "dependencies": {
+    "@astrojs/cloudflare": "^6.2.2",
+    "@cloudflare/workers-types": "^4.20230404.0",
+    "@miniflare/tre": "3.0.0-next.12",
     "astro": "^2.2.3"
+
   }
 }
