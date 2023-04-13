@@ -1,6 +1,0 @@
-name = "rose"
-compatibility_date = "2023-04-13"
-
-kv_namespaces = [
-    { binding = "MY_KV", id = "e2940a3cb4ea489ba0a8f74f6e7aa870", preview_id = "0ce04a541435457f80a83b1d12a6276f" }
-]
