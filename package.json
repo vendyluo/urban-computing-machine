@@ -8,7 +8,7 @@
     "build": "astro build",
     "preview": "astro preview",
     "astro": "astro",
-    "pages-preview": "wrangler pages dev ./dist  --compatibility-date=2023-04-13 --compatibility-flags=nodejs_compat --experimental-local"
+    "pages-preview": "wrangler pages dev ./dist  --compatibility-date=2023-04-13 --compatibility-flags=nodejs_compat --experimental-local -k MY_KV"
   },
   "dependencies": {
     "@astrojs/cloudflare": "^6.2.2",
